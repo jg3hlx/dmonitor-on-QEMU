@@ -2,10 +2,9 @@
 
 QEMUを使ってRaspberry Piをエミュレートしてdmonitorを動かす方法。
 注意点
-・dmonitorは32bitOS上でしか動かな、そのため　-M raspi2b　を指定する。
+・dmonitorは32bitOS上でしか動かない為　-M raspi2b　を指定する。
 ・Raspberry PiのエミュレートではUSBHOSTが使えないためUSBIPを使う。
-・OSのアップデート伴い起動できない無い場合は再度”kernel7.img”と”bcm2709-rpi-2-b.dtb”をイメージから取り出すことで起動できる。
-・Ｄ－ＳＴＡＲ委員会からdmonitorをインストールしたイメージの配布が禁止されてるのでイメージの提供はなし。
+・OSのアップデート伴い起動できない無い場合は再度”kernel7.img”と”bcm2709-rpi-2-b.dtb”をイメージから取り出すことで起動ができる。
 
 作業手順
 １．QEMUのインストール
