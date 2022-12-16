@@ -1,6 +1,7 @@
 # QEMU-On-dmonitor
 
-QEMUを使ってRaspberry Piをエミュレートしてdmonitorを動かす方法。.
+QEMUを使ってRaspberry Piをエミュレートしてdmonitorを動かす方法。
+
 注意点
 ・dmonitorは32bitOS上でしか動かない為　-M raspi2b　を指定する。
 ・Raspberry PiのエミュレートではUSBHOSTが使えないためUSBIPを使う。
