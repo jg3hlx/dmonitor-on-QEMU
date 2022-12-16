@@ -45,6 +45,6 @@ QEMUを使ってRaspberry Piをエミュレートしてdmonitorを動かす方�
   
   　　　https://www.virtualhere.com/windows_server_software/
      
-     ・Raspberry PI 
+　　　・Raspberry PI 
    
    　　sudo apt install usbip
