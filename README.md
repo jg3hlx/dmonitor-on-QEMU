@@ -18,18 +18,33 @@ QEMUを使ってRaspberry Piをエミュレートしてdmonitorを動かす方�
     https://www.qemu.org/download/
 
 ２．Raspberry Pi OS with desktopの取得
+
 　　https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-32-bit
+  
 ３．”kernel7.img”と”bcm2709-rpi-2-b.dtb”をイメージから抽出。
+
 ４．QEMUの起動
+
 ５．desktopが表示されるまで気長に待つ。
+
 ６．sudo apt update
+
 ７．sudo apt upgarde
+
 ８．再起動後dmonitorのインストール。
+
 　　手順はdmonitorのドキュメントを参照。
+  
   　http://app.d-star.info/doc/dmonitor/
+   
 ９．dmonitorが起動することを確認
+
 １０．無線機と接続するためにUSBIPのインストール
+
 　　・WindowsOS
+  
      https://www.virtualhere.com/windows_server_software
+     
    ・Raspberry PI 
+   
    　sudo apt install usbip
