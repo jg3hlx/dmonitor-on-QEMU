@@ -47,4 +47,4 @@ QEMUを使ってRaspberry Piをエミュレートしてdmonitorを動かす方�
      
 　　　・Raspberry PI 
    
-   　　sudo apt install usbip
+　　　　sudo apt install usbip
