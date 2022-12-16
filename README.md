@@ -41,7 +41,7 @@ QEMUを使ってRaspberry Piをエミュレートしてdmonitorを動かす方�
 
 １０．無線機と接続するためにUSBIPのインストール
 
-　　・WindowsOS
+　　WindowsOS
   
     https://www.virtualhere.com/windows_server_software/
      
