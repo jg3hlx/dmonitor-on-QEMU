@@ -17,7 +17,7 @@ QEMUを使ってRaspberry Piをエミュレートしてdmonitorを動かす方�
 
     https://www.qemu.org/download/
 
-２．Raspberry Pi OS with desktopの取得
+２．Raspberry Pi OS with desktop イメージの取得
 
 　　https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-32-bit
   
@@ -47,4 +47,4 @@ QEMUを使ってRaspberry Piをエミュレートしてdmonitorを動かす方�
      
 　　　・Raspberry PI 
    
-　　　　% sudo apt install usbip
+　　　　sudo apt install usbip
