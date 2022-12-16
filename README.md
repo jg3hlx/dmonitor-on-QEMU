@@ -1,4 +1,4 @@
-# QEMUを使ってRaspberry Piをエミュレートしてdmonitorを動かす方法。
+# QEMUを使ってdmonitorを動かす方法。
 
 注意点
 
