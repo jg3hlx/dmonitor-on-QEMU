@@ -43,7 +43,7 @@ QEMUを使ってRaspberry Piをエミュレートしてdmonitorを動かす方�
 
 　　・WindowsOS
   
-     https://www.virtualhere.com/windows_server_software/
+    https://www.virtualhere.com/windows_server_software/
      
    ・Raspberry PI 
    
