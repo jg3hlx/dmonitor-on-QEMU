@@ -21,7 +21,7 @@ QEMUを使ってRaspberry Piをエミュレートしてdmonitorを動かす方�
 
 　　https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-32-bit
   
-３．”kernel7.img”と”bcm2709-rpi-2-b.dtb”をイメージから抽出。
+３．”kernel7.img”と”bcm2709-rpi-2-b.dtb”をOSイメージから抽出。
 
 ４．QEMUの起動
 
@@ -41,7 +41,7 @@ QEMUを使ってRaspberry Piをエミュレートしてdmonitorを動かす方�
 
 １０．無線機と接続するためにUSBIPのインストール
 
-　　WindowsOS
+　　・WindowsOS
   
     https://www.virtualhere.com/windows_server_software/
      
