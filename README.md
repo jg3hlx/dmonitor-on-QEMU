@@ -4,9 +4,9 @@
 
 ・dmonitorは32bitOS上でしか動かない為　-M raspi2b　を指定する。
 
-・Raspberry PiのエミュレートではUSBHOSTが使えないためUSBIPを使う。
+・Raspberry PiのエミュレートではUSBHOSTが使えないためUSBIPを使って無線機と接続する。
 
-・OSのアップデート伴い起動できない無い場合は再度”kernel7.img”と”bcm2709-rpi-2-b.dtb”をイメージから取り出すことで起動ができる。
+・OSのアップデートに伴い起動できない無い場合は、再度”kernel7.img”と”bcm2709-rpi-2-b.dtb”をイメージから取り出すことで起動ができる。
 
 
 作業手順
@@ -23,21 +23,27 @@
 
 ４．QEMUの起動
 
-５．desktopが表示されるまで気長に待つ。
+　　demonitor.bat
 
-６．sudo apt update
+　　desktopが表示されるまで気長に待つ。
 
-７．sudo apt upgarde
+５．OSの初期設定
 
-８．再起動後dmonitorのインストール。
+　　・SWAPを2048Byeに拡張する
+
+　　・ %sudo apt update
+
+　　・ %sudo apt upgarde
+
+６．再起動後dmonitorのインストール。
 
 　　手順はdmonitorのドキュメントを参照。
   
   　http://app.d-star.info/doc/dmonitor/
    
-９．dmonitorが起動することを確認
+７．dmonitorが起動することを確認
 
-１０．無線機と接続するためにUSBIPのインストール
+８．無線機と接続するためにUSBIPのインストール
 
 　　　・WindowsOS
   
