@@ -52,3 +52,6 @@
 　　　・Raspberry PI 
    
 　　　　sudo apt install usbip
+    
+    
+    https://github.com/jg3hlx/dmonitor-on-QEMU/issues/1#issue-1501740961
