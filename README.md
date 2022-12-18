@@ -54,4 +54,4 @@
 　　　　sudo apt install usbip
     
     
-    https://github.com/jg3hlx/dmonitor-on-QEMU/issues/1#issue-1501740961
+![image](https://user-images.githubusercontent.com/76939165/208281450-a9b98766-d199-4a39-82d5-9ec4b83b7dc3.png)
