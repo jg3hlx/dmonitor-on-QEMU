@@ -47,7 +47,7 @@
 
 　　　・WindowsOS
   
-  　　　https://www.virtualhere.com/windows_server_software/
+  　　 　https://www.virtualhere.com/windows_server_software/
      
 　　　・Raspberry PI 
    
