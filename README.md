@@ -51,7 +51,7 @@
      
 　　　・Raspberry PI 
    
-　　　　sudo apt install usbip
+　　　　https://www.virtualhere.com/sites/default/files/usbclient/vhuitarm7
     
     
 ![image](https://user-images.githubusercontent.com/76939165/208281450-a9b98766-d199-4a39-82d5-9ec4b83b7dc3.png)
