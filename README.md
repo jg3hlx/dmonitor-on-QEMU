@@ -46,7 +46,7 @@
        
          A1 Expand Filesystem
          
-　　・SWAPを2048Byeに拡張する
+    ・SWAPを2048Byeに拡張する
   
       $ sudo service dphys-swapfile stop
       
