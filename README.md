@@ -19,7 +19,7 @@
 
 　　https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-32-bit
   
-  　※dmonitorが動いているSDからイメージファイル作成してを使うこともできます。
+  　 ※dmonitorが動いているSDからイメージファイル作成してを使うこともできます。
   
 ３．”kernel7.img”と”bcm2709-rpi-2-b.dtb”をOSイメージから抽出。
 
@@ -39,6 +39,7 @@
 ５．OSの初期設定
 
    ・SD容量のリサイズを行う
+   
      %sudo raspi-config
      
        6.Advanced Options
@@ -46,6 +47,7 @@
          A1 Expand Filesystem
          
 　　・SWAPを2048Byeに拡張する
+  
       $ sudo service dphys-swapfile stop
       
       $ sudo vim /etc/dphys-swapfile
