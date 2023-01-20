@@ -19,17 +19,36 @@
 
 　　https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-32-bit
   
+  ※dmonitorが動いているSDからイメージファイル作成してを使うこともできます。
+  
 ３．”kernel7.img”と”bcm2709-rpi-2-b.dtb”をOSイメージから抽出。
+
+　　抽出済みファイルを使うこともできますが、正しく動作させるためには必ず抽出してください。
+  
+    ※OSアップデート後にOSが起動できないときや、ネットワークが使えなくなったときも再抽出してください。
 
 ４．QEMUの起動
 
 　　demonitor.bat
+  
+    ※イメージサイズのエラーが表示された場合は適宜リサイズしてください。2G,4G,8G,16G等
+    　例　qemu-img resize 2022-09-22-raspios-bullseye-armhf-full.img 8G
 
 　　desktopが表示されるまで気長に待つ。
 
 ５．OSの初期設定
 
+   ・SD容量のリサイズを行う
+     %sudo raspi-config
+       6.Advanced Options
+         A1 Expand Filesystem
+         
 　　・SWAPを2048Byeに拡張する
+      $ sudo service dphys-swapfile stop
+      $ sudo vim /etc/dphys-swapfile
+         ※このファイル内のCONF_SWAPSIZEの値を変更する
+        CONF_SWAPSIZE=208
+　　　　$ sudo service dphys-swapfile start
 
 　　・ %sudo apt update
 
