@@ -40,11 +40,7 @@
 
    ・SD容量のリサイズを行う
    
-     %sudo raspi-config
-     
-       6.Advanced Options
-       
-         A1 Expand Filesystem
+ 　　　$ sudo raspi-config  --expand-rootfs
          
     ・SWAPを2048Byeに拡張する
   
