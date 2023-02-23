@@ -7,7 +7,7 @@ cd /d %~dp0
 -kernel kernel7.img ^
 -dtb bcm2709-rpi-2-b.dtb ^
 -drive format=raw,file=2022-09-22-raspios-bullseye-armhf-full.img ^
- -append "console=ttyAMA0 root=/dev/mmcblk0p2 rw rootwait rootfstype=ext4 dwc_otg.fiq_fsm_enable=0 bcm2708_fb.fbwidth=1280 bcm2708_fb.fbheight=800" ^
+ -append "console=ttyAMA0 root=/dev/mmcblk0p2 rw rootwait rootfstype=ext4 dwc_otg.fiq_fsm_enable=0 bcm2708_fb.fbwidth=1024 bcm2708_fb.fbheight=768" ^
 -serial stdio ^
 -no-reboot ^
 -usb ^
