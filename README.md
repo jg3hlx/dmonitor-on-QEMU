@@ -42,7 +42,7 @@
    
  　　　$ sudo raspi-config  --expand-rootfs
          
-    ・SWAPを2048Byeに拡張する
+    ・SWAPを512MByeに拡張する
   
       $ sudo service dphys-swapfile stop
       
@@ -50,7 +50,7 @@
       
          ※このファイル内のCONF_SWAPSIZEの値を変更する
          
-        CONF_SWAPSIZE=208
+        CONF_SWAPSIZE=512
         
 　　　　$ sudo service dphys-swapfile start
 
